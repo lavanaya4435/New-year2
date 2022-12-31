@@ -72,7 +72,10 @@ button5.addEventListener('click', () => {
     
     // img.style.display = "block";
     // body.style.backgroundImage = URL('https://media.istockphoto.com/id/1417991075/photo/happy-new-year-2023-christmas-gold-blue-glitter.jpg?s=1024x1024&w=is&k=20&c=uzeizJPIDPW6lrMbXehXiIWVyX-MQq75oY4bCpGjO6Y=');
-    text1.innerHTML = "Hi" + "🙋🏻‍♀️" + " " + inputval + "   " + "Happy New Year!" + "🎆🎇✨" + "Best wishes to my beloved friend for a wonderful year ahead. Though we're miles apart, you are always in my thoughts and prayers." + "         " + "your's Lavanya";
+    text1.innerHTML =
+        
+        
+        "Hi" + "🙋🏻‍♀️" + " " + inputval + "   " + "Happy New Year!" + "🎆🎇✨" + "Best wishes to my beloved friend for a wonderful year ahead. Though we're miles apart, you are always in my thoughts and prayers." + "         " + "your's Lavanya";
 
     input.style.display = "none";
     button6.style.display = "block";
@@ -92,6 +95,12 @@ button6.addEventListener('click', () => {
     button6.remove();
 })
 
+    
+
+
+
+
+ 
     
 
 
