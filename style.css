@@ -48,8 +48,10 @@ h1{
         color:purple;
         padding-left: 50px;
         text-align: center;
-        padding-bottom: 50px;
+        padding-top: 50px;
+        font-size: medium;
 }
+
 img{
     width: 200%;
     height: 200%;
@@ -66,69 +68,87 @@ input{
 }
  @media only screen and (max-width: 600px) {
     body{
-        height: fit-content;
+        /* height: fit-content;
         width: fit-content;
         text-align: justify;
-        align-items: center;
+        align-items: center; */
+        background-color: red;
     }
 
  }
- @media (min-width:320px) {
+ @media only screen and(min-width:320px) {
      /* smartphones, iPhone, portrait 480x320 phones */
     body {
-            height: fit-content;
+            /* height: fit-content;
             width: fit-content;
             text-align: justify;
-            align-items: center;
+            align-items: center; */
+            background-color: green;
         }
  }
 
- @media (min-width:481px) {
+ @media only screen and(min-width:481px) {
      /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
     body {
-            height: fit-content;
+            /* height: fit-content;
             width: fit-content;
             text-align: justify;
-            align-items: center;
+            align-items: center; */
+            background-color: blue;
         }
  }
 
- @media (min-width:641px) {
+ @media only screen and(min-width:641px) {
      /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
     body {
-            height: fit-content;
+            /* height: fit-content;
             width: fit-content;
             text-align: justify;
-            align-items: center;
+            align-items: center; */
+            background-color: blueviolet;
         }
  }
 
- @media (min-width:961px) {
+ @media only screen and(min-width:961px) {
      /* tablet, landscape iPad, lo-res laptops ands desktops */
     body {
-            height: fit-content;
+            /* height: fit-content;
             width: fit-content;
             text-align: justify;
-            align-items: center;
+            align-items: center; */
+            background-color: black;
         }
  }
 
- @media (min-width:1025px) {
+ @media only screen and (min-width:1025px) {
      /* big landscape tablets, laptops, and desktops */
     body {
-            height: fit-content;
+            /* height: fit-content;
             width: fit-content;
             text-align: justify;
-            align-items: center;
+            align-items: center; */
+            background-color: transparent;
         }
  }
 
- @media (min-width:1281px) {
+ @media only screen and(min-width:1281px) {
      /* hi-res laptops and desktops */
     body {
-            height: fit-content;
+            /* height: fit-content;
             width: fit-content;
             text-align: justify;
-            align-items: center;
+            align-items: center; */
+            background-color: yellow;
         }
+ }
+ @media only screen and(min-width:1025px) {
+
+     /* hi-res laptops and desktops */
+     body {
+         height: fit-content;
+         width: fit-content;
+         text-align: justify;
+         align-items: center;
+        
+     }
  }
