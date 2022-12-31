@@ -60,15 +60,9 @@ input{
     font-style: italic;
 
 }
-
-@media  only screen and(min-width:768px){
-    body{
-        width: 50%;
-    }
-}
-/*    @media screen and(min-width:50px) and (max-width:391px) {
-       body {
-           width: 70%;
-           padding: 25px;
+@media (min-width: 600px) {
+       h1{
+        font-size: 30px;
+        line-height: 50px;
        }
-   } */
+   }
